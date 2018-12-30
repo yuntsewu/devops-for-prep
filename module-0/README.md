@@ -36,11 +36,13 @@
 3. Follow Step 1 and Step 2 from [AWS Quick Start Guide: Launch a Linux Virtual Machine](https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/welcome.html)
 
 # What did we do
+<!--
 [diagram of what each step we did in the <Get Started> secion related to each other in a squence diagram]
 <Explanation>
 <Talk about scaling>
 <Changes>
 <Deployment>
+-->
 
 # Goals
 Good understanding of:
