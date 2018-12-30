@@ -24,7 +24,6 @@
 - Learn about how Linux file system (/sys /usr /var)
 - Learn about service management on Linux (systemd)
 - Install a basic web service
-- How it stands on TCP/IP module
 
 ## Steps
 
