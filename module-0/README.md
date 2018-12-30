@@ -33,8 +33,7 @@
     3. Under Network and Subnet sections, Click *Create new VPC* and *Create new Subnet* 
         - If you want to read more about VPC and Subnet on AWS, head over to [AWS Overview](https://docs.aws.amazon.com/aws-technical-content/latest/aws-overview/aws-overview.pdf) and read page 50 for the overview or read up [What is Amazon VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html) 
     4. Once you have completed the steps above...  -->
-3. Follow Step 1 and Step 2 from [AWS Quick Start Guide: Launch a Linux Virtual Machine
-] (https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/welcome.html)
+3. Follow Step 1 and Step 2 from [AWS Quick Start Guide: Launch a Linux Virtual Machine](https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/welcome.html)
 
 # What did we do
 [diagram of what each step we did in the <Get Started> secion related to each other in a squence diagram]
