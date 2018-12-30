@@ -29,8 +29,8 @@
 
 ### Create an AWS EC2 instance
 1. Head over to [AWS](https://aws.amazon.com/console/) and sign up a new account. This will include 12 months of free tier access. 
-2. After you have signed up and logged in. You should be on the [AWS Management Console]() page. Look for *EC2* under *Compute* or just head over to [EC2](https://us-west-2.console.aws.amazon.com/ec2/v2/home?region=us-west-2#Home)
-    - If you have time, here is a [AWS Overview](https://docs.aws.amazon.com/aws-technical-content/latest/aws-overview/aws-overview.pdf), Read page 1-8, 18-22, 22-25, 50-53. The topics you will be focusing on are Compute, Database, and Networking. This includes understanding terminology such as Virtual Machines, VPC, Elastic Load Balancer, RDS Database. 
+2. After you have signed up and logged in. You should be on the [AWS Management Console]() page. Look for **EC2** under **Compute** or just head over to [EC2](https://us-west-2.console.aws.amazon.com/ec2/v2/home?region=us-west-2#Home)
+    - If you have time, here is a [AWS Overview](https://docs.aws.amazon.com/aws-technical-content/latest/aws-overview/aws-overview.pdf), **Read page 1-8, 18-22, 22-25, 50-53. The topics you will be focusing on are Compute, Database, and Networking. This includes understanding terminology such as Virtual Machines, VPC, Elastic Load Balancer, RDS Database.**
 <!-- 3. To Launch an EC2 (VM) instance, from the link of step 2, Click *Launch Instance*
     1. Select *Ubuntu Server 18.04 LTS (HVM), SSD Volume Type (64-bit x86)* 
     2. Select *General Purpose - t2 micro type*, then click *Next: Configure Instance Details* 
@@ -40,7 +40,7 @@
 3. Follow Step 1 and Step 2 from [AWS Quick Start Guide: Launch a Linux Virtual Machine](https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/welcome.html), Once you completed that, you should be logged into the terminal of the launched EC2 instance. 
 
 ### Filesystem Hierarchy
-- In unix systems, every configuration is stored or being modified as a file. To have a better grasp of where those file could be, head over to [The Linux Directory Structure, Explained](https://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/). Make sure you at least know *var, etc, usr, bin, and dev.* 
+- In unix systems, every configuration is stored or being modified as a file. To have a better grasp of where those file could be, head over to [The Linux Directory Structure, Explained](https://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/). Make sure you at least know **var, etc, usr, bin, and dev.**
 
 ### What is systemd
 
