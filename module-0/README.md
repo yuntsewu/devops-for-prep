@@ -39,7 +39,7 @@
     4. Once you have completed the steps above...  -->
 3. Follow Step 1 and Step 2 from [AWS Quick Start Guide: Launch a Linux Virtual Machine](https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/welcome.html), Once you completed that, you should be logged into the terminal of the launched EC2 instance.
 
-- In addition, watch a simple [AWS Training Video](https://www.youtube.com/watch?v=zkzED9HvMG0)
+- In addition, watch a simple [AWS Training Video](https://www.youtube.com/watch?v=zkzED9HvMG0). The video diverts the topic into Machine Learning around half way point. Stop at that point. 
 
 ### Filesystem Hierarchy
 - In unix systems, every configuration is stored or being modified as a file. To have a better grasp of where those file could be, head over to [The Linux Directory Structure, Explained](https://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/). Make sure you at least know **var, etc, usr, bin, and dev.**
