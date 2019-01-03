@@ -37,7 +37,9 @@
     3. Under Network and Subnet sections, Click *Create new VPC* and *Create new Subnet* 
         - If you want to read more about VPC and Subnet on AWS, head over to [AWS Overview](https://docs.aws.amazon.com/aws-technical-content/latest/aws-overview/aws-overview.pdf) and read page 50 for the overview or read up [What is Amazon VPC](https://docs.aws.amazon.com/vpc/latest/userguide/what-is-amazon-vpc.html) 
     4. Once you have completed the steps above...  -->
-3. Follow Step 1 and Step 2 from [AWS Quick Start Guide: Launch a Linux Virtual Machine](https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/welcome.html), Once you completed that, you should be logged into the terminal of the launched EC2 instance. 
+3. Follow Step 1 and Step 2 from [AWS Quick Start Guide: Launch a Linux Virtual Machine](https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/welcome.html), Once you completed that, you should be logged into the terminal of the launched EC2 instance.
+
+- In addition, watch a simple [AWS Training Video](https://www.youtube.com/watch?v=zkzED9HvMG0)
 
 ### Filesystem Hierarchy
 - In unix systems, every configuration is stored or being modified as a file. To have a better grasp of where those file could be, head over to [The Linux Directory Structure, Explained](https://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/). Make sure you at least know **var, etc, usr, bin, and dev.**
