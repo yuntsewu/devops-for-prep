@@ -57,8 +57,9 @@
 
 # Goals
 Good understanding of:
-Virtual Machine (EC2)
-Container (Docker)
-Networking (VPC and Subnets)
-Operation Systems (Linux)
-IAS v.s PAS v.s SAS
+
+- Virtual Machine (EC2)
+- Container (Docker)
+- Networking (VPC and Subnets)
+- Operation Systems (Linux)
+- IAS v.s PAS v.s SAS
