@@ -43,15 +43,37 @@
 - In unix systems, every configuration is stored or being modified as a file. To have a better grasp of where those file could be, head over to [The Linux Directory Structure, Explained](https://www.howtogeek.com/117435/htg-explains-the-linux-directory-structure-explained/). Make sure you at least know **var, etc, usr, bin, and dev.**
 
 ### What is systemd
+- Read [systemd](https://wiki.archlinux.org/index.php/systemd) through section 1. 
 
 # What did we do
-<!--
-[diagram of what each step we did in the <Get Started> secion related to each other in a squence diagram]
-<Explanation>
-<Talk about scaling>
-<Changes>
-<Deployment>
--->
+```
+       VPC                   AWS EC2
+     +-----+   +-------------------------------------------+
+     |     |   |                                           |
+     |     |   |                                           |
+     |     |   |          +-------------------+            |
+     |     |   |          |      Virtual      |            |
+     |     |   |    Network      Machine      |            |
+<------------------>Interface                 |            |
+     |     |   |       +--+                   |            |
+     |     |   |          |                   |            |
+     |     |   |          |                   |            |
+     |     |   |          +----+---------+----+            |
+     |     |   |               ^         ^                 |
+     |     |   |               |         |                 +
+     |     |   |               |   Resources: CPU, RAM, Storage
+     |     |   |               |         |                 |
+     |     |   |               |         |                 |
+     +-----+   +-------------------------------------------+
+               +-------------------------------------------+
+               |          |          |          |          |
+               | Physical | Physical | Physical | Physical |
+               | Machine  | Machine  | Machine  | Machine  |
+               |          |          |          |          |
+               |          |          |          |          |
+               +----------+----------+----------+----------+
+```
+
 
 # Goals
 Good understanding of:
