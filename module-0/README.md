@@ -137,6 +137,11 @@
         For more examples and ideas, visit:
         https://docs.docker.com/get-started/
         ```
+3. To run the web server from Docker, execute the following command: 
+    ```bash
+    sudo docker run -d --rm -p 80:80 nginx:latest
+    ```
+4. You should now be able to navigate from your internet browser to http://"[Instance IP address]" and see a successfull running web server. 
 
 # Goals
 Good understanding of:
