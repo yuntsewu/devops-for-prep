@@ -78,7 +78,7 @@
 
 ### Create a simple web service on the EC2 instance
 1. From the AWS EC2 Console, select "Instances" from the left pane. Click on the instance you have just created
-2. From the bottom pane, details about this EC2 instance should show up. Look for "Security groups", you should see <Security Group Name>", "view inbound rules", "view outbound rules". Select "<Security Group Name>"
+2. From the bottom pane, details about this EC2 instance should show up. Look for "Security groups", you should see "[Security Group Name]", "view inbound rules", "view outbound rules". Select "[Security Group Name]"
 3. This should navigate you to the security groups page, with the security group you have selected earlier targeted. At the bottom pane, click on "Inbound"
 4. Selected "Edit"
 5. Click on "Add Rule", Select Type "HTTP"
@@ -90,7 +90,7 @@
     sudo systemctl enable nginx
     sudo systemctl start nginx
     ```
-9. You should now be able to navigate from your internet browser to http://<Instance IP address> and see a successfull running web server. 
+9. You should now be able to navigate from your internet browser to http://"[Instance IP address]" and see a successfull running web server. 
 
 # Goals
 Good understanding of:
