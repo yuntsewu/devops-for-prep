@@ -47,7 +47,7 @@
 ### What is systemd
 - Read [systemd](https://wiki.archlinux.org/index.php/systemd) through section 1. 
 
-# What did we do
+### What did we do
 ```
        VPC                   AWS EC2
      +-----+   +-------------------------------------------+
@@ -76,6 +76,20 @@
                +----------+----------+----------+----------+
 ```
 
+### Create a simple web service on the EC2 instance
+1. From the AWS EC2 Console, select "Instances" from the left pane. Click on the instance you have just created
+2. From the bottom pane, details about this EC2 instance should show up. Look for "Security groups", you should see <Security Group Name>", "view inbound rules", "view outbound rules". Select "<Security Group Name>"
+3. This should navigate you to the security groups page, with the security group you have selected earlier targeted. At the bottom pane, click on "Inbound"
+4. Selected "Edit"
+5. Click on "Add Rule", Select Type "HTTP"
+6. Click Save. 
+7. From the steps of [Connect to your Amazon EC2 Instance](https://docs.aws.amazon.com/quickstarts/latest/vmlaunch/step-2-connect-to-instance.html), SSH to the VM we have created earlier. 
+8. Execute the following commands to install Nginx, a webserver. To read more about Nginx please continue at [about nginx](http://nginx.org/en/)
+    ```bash
+    sudo amazon-linux-extras install nginx1.12 -y
+    sudo systemctl enable nginx
+    sudo systemctl start nginx
+    ```
 
 # Goals
 Good understanding of:
