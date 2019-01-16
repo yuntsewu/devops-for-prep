@@ -90,6 +90,7 @@
     sudo systemctl enable nginx
     sudo systemctl start nginx
     ```
+9. You should now be able to navigate from your internet browser to http://<Instance IP address> and see a successfull running web server. 
 
 # Goals
 Good understanding of:
